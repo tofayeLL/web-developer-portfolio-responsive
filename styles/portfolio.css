@@ -310,15 +310,17 @@ textarea{
 /* for mobile devices or small devices */
 
 @media screen and (max-width: 576px) {
+    .about-info-container,
     .skills-container,
     .resume-container,
     footer{
         flex-direction: column;
     }
-
+    
+    .about ,
     #what-i-do-descrip,
     footer{
-        padding: 20px;
+        padding: 10px;
     }
 
     .footer-column{
