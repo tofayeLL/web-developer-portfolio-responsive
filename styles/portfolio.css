@@ -16,6 +16,7 @@ body {
     background: #FD6E0A;
     padding: 18px 36px;
     border: none;
+ 
 
 }
 
@@ -68,7 +69,7 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    /* background-image: url('../images/header_bg.png'), url('../images/developer.png'); */
     background-repeat: no-repeat;
     background-position: bottom right, top left;
 }
@@ -302,30 +303,55 @@ textarea{
 
 
 
+
 /* responsive styles */
-.hide{
-    display: none;
-}
 
 /* for mobile devices or small devices */
 
 @media screen and (max-width: 576px) {
+    nav,
+    nav>ul,
+    .banner,
     .about-info-container,
     .skills-container,
     .resume-container,
     footer{
         flex-direction: column;
     }
+    nav>ul{
+        gap: 10px;
+    }
     
+    .banner,
     .about ,
     #what-i-do-descrip,
     footer{
         padding: 10px;
     }
-
+    .banner .profile-pic,
+    .banner-content{
+        height: 100%;
+    }
+    
+    .banner .profile-pic,
     .footer-column{
         width: 100%;
     }
 
+    .btn-primary{
+        margin-bottom: 15px;
+    }
 
+
+}
+
+
+/* for medium device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    footer{
+        padding: 30px;
+    }
+    .btn-primary{
+        margin-bottom: 15px;
+    }
 }
