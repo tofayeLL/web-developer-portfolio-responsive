@@ -310,10 +310,20 @@ textarea{
 /* for mobile devices or small devices */
 
 @media screen and (max-width: 576px) {
-    .skills-container{
+    .skills-container,
+    .resume-container,
+    footer{
         flex-direction: column;
     }
-    #what-i-do-descrip{
-        padding: 10px;
+
+    #what-i-do-descrip,
+    footer{
+        padding: 20px;
     }
+
+    .footer-column{
+        width: 100%;
+    }
+
+
 }
