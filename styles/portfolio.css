@@ -1,0 +1,319 @@
+/* shared styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.color-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 18px 36px;
+    border: none;
+
+}
+
+.section-title {
+    color: #181818;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.section-descrip {
+    color: #757575;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+/* nav related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* header related styles */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+
+
+/* banner related styles */
+
+.banner {
+    padding: 40px 40px 0px 100px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 550px;
+}
+
+.banner .profile-pic {
+    width: 580px;
+    height: 600px;
+}
+
+.banner-greetings {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.banner-descrip {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+/* main section styles */
+
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* about section styles */
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.info-descrip {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+
+
+/* what i do section related styles */
+
+#what-i-do-title {
+    margin: 0px;
+}
+
+#what-i-do-descrip {
+    padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skills-content {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.skills-descrip {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/* Resume section related styles */
+.resume-container {
+    display: flex;
+    gap: 70px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item {
+    margin: 30px 0;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.resume-item-descrip {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+
+/* footer related styles */
+
+footer {
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.footer-column {
+    width: 50%;
+   
+}
+
+.contact input,
+textarea {
+    display: block;
+    color: #757575;
+    margin-top: 24px;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    width: 80%;
+
+}
+
+/* another way we can give styles to input field by their type
+*/
+/* .contact input[type='text'], .contact input[type='email'],
+textarea{
+    width: 80%;
+}
+ */
+
+.footer-title, .footer-descrip{
+    text-align: left;
+   
+}
+.footer-title{
+    margin: 0px;
+}
+
+
+#btn-footer{
+    margin-top: 24px;
+}
+.social-links a{
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/* responsive styles */
+.hide{
+    display: none;
+}
+
+/* for mobile devices or small devices */
+
+@media screen and (max-width: 576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+    #what-i-do-descrip{
+        padding: 10px;
+    }
+}
